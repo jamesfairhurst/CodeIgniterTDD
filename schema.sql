@@ -16,6 +16,6 @@ CREATE TABLE IF NOT EXISTS `posts` (
 INSERT INTO `posts` (`id`, `title`, `body`, `published`, `created`) VALUES
 (1, 'Test Post 1', 'This is the body of a test post.', 1, NOW());
 INSERT INTO `posts` (`id`, `title`, `body`, `published`, `created`) VALUES
-(1, 'Test Post 2', 'This is the body of a test post.', 1, NOW());
+(2, 'Test Post 2', 'This is the body of a test post.', 1, NOW());
 INSERT INTO `posts` (`id`, `title`, `body`, `published`, `created`) VALUES
-(1, 'Test Post 3', 'This is the body of a test post.', 1, NOW());
+(3, 'Test Post 3', 'This is the body of a test post.', 1, NOW());

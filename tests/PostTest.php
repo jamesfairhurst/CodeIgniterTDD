@@ -10,6 +10,6 @@ class PostTest extends PHPUnit_Framework_TestCase {
 	public function testGetAllPosts() {
 		$this->CI->load->model('post');
 		$posts = $this->CI->post->getAll();
-		$this->assertEquals(1, count($posts));
+		$this->assertEquals(3, count($posts));
 	}
 }
